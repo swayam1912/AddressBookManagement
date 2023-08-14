@@ -75,4 +75,12 @@ public class Contact {
 		this.emailId = emailId;
 	}
 
+	@Override
+	public String toString() {
+		return "Contact [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+				+ ", state=" + state + ", zipCode=" + zipCode + ", mobile=" + mobile + ", emailId=" + emailId + "]";
+	}
+	
+	
+
 }
